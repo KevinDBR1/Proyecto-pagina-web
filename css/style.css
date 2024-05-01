@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background:linear-gradient(30deg, rgb(20, 160, 220),rgb(31, 84, 169), royalblue, rgb(64, 149, 223), purple);
+    background:linear-gradient(30deg, rgb(0, 0, 0), rgb(63, 55, 201),rgb(67, 96, 240), rgb(63, 55, 201), rgb(0, 0, 0));
 }
 .container{
     width: 90%;
@@ -119,11 +119,15 @@ nav{
 }
 .articulo>a{
     text-decoration: none;
-    color: #000;
+    color: #ffffff;
 }
 .articulo >a:hover{
     color: #FFF;
-    transition: 5s;
+    transition: 3s;
+}
+.articulo:hover{
+    transition: all 1s ease-in-out;
+    border-radius: 50%;
 }
 .experiencia {
     background-color: #d03d3d;
