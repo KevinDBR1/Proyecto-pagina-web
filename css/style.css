@@ -32,7 +32,7 @@ body{
     margin-top: 15%;
     width: 1000px;
     height: 500px;
-    background-color: gray;
+    background-color: rgb(22, 21, 21);
     margin-bottom: 20px;
     border-radius: 20px;
 }
@@ -84,9 +84,11 @@ nav{
     margin-top: 50px;
     display: block;
     width: 100%;
+    height: 30%;
     text-align: center;
     margin: solid;
-    background-color: #FFF;
+    background:linear-gradient(30deg, rgb(0, 0, 0), rgb(63, 55, 201),rgb(47, 68, 172), rgb(63, 55, 201), rgb(0, 0, 0));
+    border-radius: 30px;
 }
 .educacion{
     background-color: #f2f2f2;
@@ -98,8 +100,8 @@ nav{
     justify-content: space-around;
 }
 .articulo{
-    width: 300px;
-    height: 300px;
+    width: 340px;
+    height: 340px;
     background-color: #FFF;
     margin: 50px;
     border-radius: 10px;
