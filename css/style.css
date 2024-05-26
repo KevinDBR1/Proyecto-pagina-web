@@ -175,36 +175,3 @@ nav{
 .experience h3 {
     margin-bottom: 15px;
 }
-.content-juegos{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    color: #fff;
-    font-family: "poppins",sans-serif;
-}
-.content-juegos{
-    position: relative;
-    background: #010615;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 40px;
-    margin-left: 10px;
-    transition: 0.5s;
-}
-.content-juegos :hover{
-    height: 400px;
-}
-.content-juegos::before,
-.content-juegos::after{
-    content: "";
-    background: linear-gradient(45deg, #ff05ac 0%, #ff05ac 18%, aqua 100%);
-    position: absolute;
-    inset: -2px;
-    z-index: -1;
-}
-.content-juegos::after{
-    filter: blur(40px);
-    z-index: -2;
-}
