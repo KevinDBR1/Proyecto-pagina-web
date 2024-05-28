@@ -1,5 +1,5 @@
 body{
-    background:linear-gradient(30deg, rgb(0, 0, 0), rgb(63, 55, 201),rgb(111, 109, 159),rgb(31, 47, 130),rgb(111, 106, 212), rgb(63, 55, 201), rgb(0, 0, 0));    
+    background:linear-gradient(30deg, rgb(0, 0, 0), rgb(63, 55, 201),rgb(142, 141, 187),rgb(41, 56, 135),rgb(142, 141, 187), rgb(63, 55, 201), rgb(0, 0, 0));    
 }
 .container{
     display: flex;
