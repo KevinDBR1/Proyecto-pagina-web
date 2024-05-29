@@ -9,6 +9,11 @@ body{
     font-family: 'Poppins',sans-serif ;
     color: white;
 }
+.container a{
+    border: solid 2px white;
+    border-radius: 5px;
+    color: #fff;
+}
 .targeta{
     position: relative;
     width: 300px;
@@ -72,4 +77,16 @@ img{
 }
 .targeta:hover img{
     opacity: 1;
+}
+.boton-retorno{
+    display: grid;
+    place-items: center;
+    width: 400px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.regreso{
+    display: grid;
+    place-items: center;
 }
