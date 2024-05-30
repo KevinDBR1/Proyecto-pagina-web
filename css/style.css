@@ -16,6 +16,11 @@ body{
     justify-content: center;
     align-items: center;
 }
+iframe{
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+}
 .contenido-juegos{
     display: flex;
     margin-left: 300px;
